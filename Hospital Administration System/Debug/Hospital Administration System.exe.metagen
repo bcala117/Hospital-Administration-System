@@ -1,0 +1,47 @@
+  HospitalAdministrationSystem.FormMain.resources - Embedded, ContainedInManifestFile, 
+  HospitalAdministrationSystem.SplashScreen.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Hospital Administration System, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data.SQLite, Version=1.0.110.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class HospitalAdministrationSystem.DatabaseManager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    open(String): PrivateScope, Public, HideBySig
+    isOpen(): PrivateScope, Public, HideBySig
+    getPatients(vector<Patient\,std::allocator<Patient> >*): PrivateScope, Public, HideBySig
+    getDoctors(vector<MedicalEmployee\,std::allocator<MedicalEmployee> >*): PrivateScope, Public, HideBySig
+    getNurses(vector<MedicalEmployee\,std::allocator<MedicalEmployee> >*): PrivateScope, Public, HideBySig
+    getOtherEmployees(vector<Employee\,std::allocator<Employee> >*): PrivateScope, Public, HideBySig
+    getRooms(vector<Room\,std::allocator<Room> >*): PrivateScope, Public, HideBySig
+    getItems(vector<Item\,std::allocator<Item> >*): PrivateScope, Public, HideBySig
+    getPatient(Patient*, String): PrivateScope, Public, HideBySig
+    getDoctor(MedicalEmployee*, String): PrivateScope, Public, HideBySig
+    getNurse(MedicalEmployee*, String): PrivateScope, Public, HideBySig
+    getRoom(Room*, String): PrivateScope, Public, HideBySig
+Class HospitalAdministrationSystem.FormMain: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class HospitalAdministrationSystem.Globals: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    HospitalAdministrationSystem.DatabaseManager databaseManager : Public, Static
+Class HospitalAdministrationSystem.SplashScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

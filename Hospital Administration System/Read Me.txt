@@ -1,0 +1,3 @@
+This was a project done by myself, Justin Winn, and Hussein Safa for our CSC 330 class.
+The code uploaded here is not fully functional because the database file got corrupted and I was unable to fix it so the information that would have been there to populate
+the prgoram is just blank for the example here however all of the code behind this program can be seen. 

@@ -1,0 +1,5 @@
+E:\P\Project1\source\Hospital Administration System\Hospital Administration System\Debug\Hospital Administration System.vcxprojAssemblyReference.cache
+E:\P\Project1\source\Hospital Administration System\Hospital Administration System\Debug\HospitalAdministrationSystem.FormMain.resources
+E:\P\Project1\source\Hospital Administration System\Hospital Administration System\Debug\HospitalAdministrationSystem.SplashScreen.resources
+E:\P\Project1\source\Hospital Administration System\Hospital Administration System\Debug\Hospital Administration System.vcxproj.GenerateResource.cache
+E:\P\Project1\source\Hospital Administration System\Hospital Administration System\Debug\Hospital Administration System.vcxproj.CopyComplete
